@@ -64,7 +64,6 @@ interface IState {
 	fontScale: number;
 }
 
-
 export default class Root extends Component<{}, IState> {
 	private listenerTimeout!: any;
 	private dimensionsListener?: EmitterSubscription;
